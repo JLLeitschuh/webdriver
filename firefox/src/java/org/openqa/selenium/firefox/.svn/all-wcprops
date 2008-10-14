@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/557/trunk/firefox/src/java/org/openqa/selenium/firefox
+END
+FirefoxProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/494/trunk/firefox/src/java/org/openqa/selenium/firefox/FirefoxProfile.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/421/trunk/firefox/src/java/org/openqa/selenium/firefox/Context.java
+END
+FirefoxLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/540/trunk/firefox/src/java/org/openqa/selenium/firefox/FirefoxLauncher.java
+END
+FirefoxWebElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/551/trunk/firefox/src/java/org/openqa/selenium/firefox/FirefoxWebElement.java
+END
+ExtensionConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/421/trunk/firefox/src/java/org/openqa/selenium/firefox/ExtensionConnection.java
+END
+FirefoxDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/549/trunk/firefox/src/java/org/openqa/selenium/firefox/FirefoxDriver.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/554/trunk/firefox/src/java/org/openqa/selenium/firefox/Response.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/421/trunk/firefox/src/java/org/openqa/selenium/firefox/Command.java
+END

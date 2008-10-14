@@ -1,0 +1,40 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/support/test/java/org/openqa/selenium/support/internal
+http://webdriver.googlecode.com/svn
+
+
+
+2008-06-27T10:29:24.531596Z
+421
+simon.m.stewart
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+LocatingElementHandlerTest.java
+file
+
+
+
+
+2008-10-09T10:18:19.000000Z
+d11500d7ca784c037df67a2f2853da1c
+2008-06-27T10:29:24.531596Z
+421
+simon.m.stewart
+

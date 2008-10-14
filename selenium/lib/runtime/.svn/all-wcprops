@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/460/trunk/selenium/lib/runtime
+END
+jetty-6.1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/460/trunk/selenium/lib/runtime/jetty-6.1.9.jar
+END
+junit-3.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/460/trunk/selenium/lib/runtime/junit-3.8.1.jar
+END

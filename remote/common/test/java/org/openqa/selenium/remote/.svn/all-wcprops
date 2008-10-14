@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/438/trunk/remote/common/test/java/org/openqa/selenium/remote
+END
+JsonToBeanConverterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/438/trunk/remote/common/test/java/org/openqa/selenium/remote/JsonToBeanConverterTest.java
+END
+BeanToJsonConverterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/438/trunk/remote/common/test/java/org/openqa/selenium/remote/BeanToJsonConverterTest.java
+END

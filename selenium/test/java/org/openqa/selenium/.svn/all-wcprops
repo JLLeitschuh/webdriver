@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/460/trunk/selenium/test/java/org/openqa/selenium
+END
+TestGomezSuppliedScripts.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/TestGomezSuppliedScripts.java
+END
+CrossDomainTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/CrossDomainTest.java
+END
+HttpsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/HttpsTest.java
+END
+TestReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/TestReporter.java
+END
+AbstractTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/AbstractTest.java
+END
+BBCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/BBCTest.java
+END
+SeleniumTestEnvironment.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/422/trunk/selenium/test/java/org/openqa/selenium/SeleniumTestEnvironment.java
+END
+FidelityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/FidelityTest.java
+END
+GoogleTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/GoogleTest.java
+END
+VerizonTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/VerizonTest.java
+END
+WebDriverBackSeleniumTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/460/trunk/selenium/test/java/org/openqa/selenium/WebDriverBackSeleniumTest.java
+END
+BestBuyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/BestBuyTest.java
+END
+DollarRentACarTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/277/trunk/selenium/test/java/org/openqa/selenium/DollarRentACarTest.java
+END

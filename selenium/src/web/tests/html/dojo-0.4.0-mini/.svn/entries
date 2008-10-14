@@ -1,0 +1,106 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/selenium/src/web/tests/html/dojo-0.4.0-mini
+http://webdriver.googlecode.com/svn
+
+
+
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+tests
+dir
+
+LICENSE
+file
+
+
+
+
+2008-10-09T10:16:06.000000Z
+81fea7e90bc637ccbde20b82fdf0489c
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+dojo.js
+file
+
+
+
+
+2008-10-09T10:16:06.000000Z
+2cfb436edbb1953088118552c21fedaa
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+src
+dir
+
+dojo.js.uncompressed.js
+file
+
+
+
+
+2008-10-09T10:16:06.000000Z
+2461e504a85094e92540c368759942c7
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+iframe_history.html
+file
+
+
+
+
+2008-10-09T10:16:06.000000Z
+e4f4df0ada453daa80b108cfb3bbbe90
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+README
+file
+
+
+
+
+2008-10-09T10:16:06.000000Z
+7783d613d2fc2076c16259e9695d4f90
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+build.txt
+file
+
+
+
+
+2008-10-09T10:16:06.000000Z
+d066828919b4ab696dc485c5f09429a7
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+

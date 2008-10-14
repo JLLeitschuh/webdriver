@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/549/trunk/safari/src/java/org/openqa/selenium/safari
+END
+SafariDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/549/trunk/safari/src/java/org/openqa/selenium/safari/SafariDriver.java
+END
+AppleScript.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/421/trunk/safari/src/java/org/openqa/selenium/safari/AppleScript.java
+END
+SafariWebElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/421/trunk/safari/src/java/org/openqa/selenium/safari/SafariWebElement.java
+END

@@ -1,0 +1,34 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/support/src/java/org/openqa/selenium
+http://webdriver.googlecode.com/svn
+
+
+
+2008-08-22T13:45:54.181239Z
+511
+simon.m.stewart
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+support
+dir
+
+lift
+dir
+

@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased
+END
+TestFramesOpen.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFramesOpen.java
+END
+TestCssLocators.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestCssLocators.java
+END
+TestDojoDragAndDrop.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestDojoDragAndDrop.java
+END
+GoogleTestSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/GoogleTestSearch.java
+END
+TestCursorPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestCursorPosition.java
+END
+TestAddLocationStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestAddLocationStrategy.java
+END
+TestWait.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestWait.java
+END
+TestVerifications.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestVerifications.java
+END
+TestFramesSpecialTargets.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFramesSpecialTargets.java
+END
+TestEditable.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestEditable.java
+END
+TestConfirmations.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestConfirmations.java
+END
+TestXPathLocatorInXHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestXPathLocatorInXHtml.java
+END
+TestPause.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestPause.java
+END
+TestElementIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestElementIndex.java
+END
+TestImplicitLocators.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestImplicitLocators.java
+END
+TestElementOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestElementOrder.java
+END
+TestHtmlSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestHtmlSource.java
+END
+TestClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestClick.java
+END
+TestGoBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestGoBack.java
+END
+TestLocators.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestLocators.java
+END
+TestVisibility.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestVisibility.java
+END
+TestAlerts.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestAlerts.java
+END
+TestElementPresent.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestElementPresent.java
+END
+TestTypeRichText.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestTypeRichText.java
+END
+TestSelectMultiLevelFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestSelectMultiLevelFrame.java
+END
+TestFocusOnBlur.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFocusOnBlur.java
+END
+TestBasicAuth.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestBasicAuth.java
+END
+TestClickBlankTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestClickBlankTarget.java
+END
+TestEvilClosingWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestEvilClosingWindow.java
+END
+TestSelectWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestSelectWindow.java
+END
+TestHighlight.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestHighlight.java
+END
+TestOpenInTargetFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestOpenInTargetFrame.java
+END
+TestSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestSelect.java
+END
+TestFramesNested.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFramesNested.java
+END
+TestComments.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestComments.java
+END
+TestErrorChecking.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestErrorChecking.java
+END
+TestCommandError.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestCommandError.java
+END
+TestPatternMatching.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestPatternMatching.java
+END
+TestMultiSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestMultiSelect.java
+END
+TestTextWhitespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestTextWhitespace.java
+END
+TestSubmit.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestSubmit.java
+END
+TestWaitInPopupWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestWaitInPopupWindow.java
+END
+TestCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestCookie.java
+END
+TestSelectWindowTitle.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestSelectWindowTitle.java
+END
+TestWaitFor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestWaitFor.java
+END
+TestJavaScriptAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestJavaScriptAttributes.java
+END
+TestCheckUncheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestCheckUncheck.java
+END
+TestFramesClickJavascriptHref.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFramesClickJavascriptHref.java
+END
+TestEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestEval.java
+END
+TestJavascriptParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestJavascriptParameters.java
+END
+TestXPathLocators.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestXPathLocators.java
+END
+TestFailingAssert.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFailingAssert.java
+END
+TestFailingVerifications.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFailingVerifications.java
+END
+TestDomainCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestDomainCookie.java
+END
+TestOpen.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestOpen.java
+END
+TestFunkEventHandling.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFunkEventHandling.java
+END
+TestModalDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestModalDialog.java
+END
+TestClickJavascriptHref.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestClickJavascriptHref.java
+END
+TestPrompt.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestPrompt.java
+END
+TestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestType.java
+END
+TestFramesClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestFramesClick.java
+END
+TestDragAndDrop.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestDragAndDrop.java
+END
+TestBrowserVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestBrowserVersion.java
+END
+TestWaitForNot.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestWaitForNot.java
+END
+TestStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestStore.java
+END
+TestRefresh.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestRefresh.java
+END
+TestQuickOpen.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestQuickOpen.java
+END
+TestUserExtensions.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/277/trunk/selenium/test/java/com/thoughtworks/selenium/corebased/TestUserExtensions.java
+END

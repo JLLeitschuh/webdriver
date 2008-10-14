@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/549/trunk/common/src/java/org/openqa/selenium/internal
+END
+FindsByName.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/internal/FindsByName.java
+END
+FindsByLinkText.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/549/trunk/common/src/java/org/openqa/selenium/internal/FindsByLinkText.java
+END
+ReturnedCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/internal/ReturnedCookie.java
+END
+FindsByXPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/internal/FindsByXPath.java
+END
+FindsByClassName.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/internal/FindsByClassName.java
+END
+FindsById.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/internal/FindsById.java
+END
+OperatingSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/438/trunk/common/src/java/org/openqa/selenium/internal/OperatingSystem.java
+END

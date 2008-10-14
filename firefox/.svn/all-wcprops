@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/557/trunk/firefox
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/472/trunk/firefox/.classpath
+END
+firefox.iml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/472/trunk/firefox/firefox.iml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/25/trunk/firefox/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/555/trunk/firefox/pom.xml
+END

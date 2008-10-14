@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/60/trunk/jobbie/src/csharp/XPath
+END
+AttributeNodes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/20/trunk/jobbie/src/csharp/XPath/AttributeNodes.cs
+END
+ElementNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/60/trunk/jobbie/src/csharp/XPath/ElementNode.cs
+END
+NavigableDocument.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/20/trunk/jobbie/src/csharp/XPath/NavigableDocument.cs
+END

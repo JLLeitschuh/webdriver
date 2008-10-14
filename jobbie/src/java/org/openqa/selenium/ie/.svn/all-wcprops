@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/549/trunk/jobbie/src/java/org/openqa/selenium/ie
+END
+InternetExplorerElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/499/trunk/jobbie/src/java/org/openqa/selenium/ie/InternetExplorerElement.java
+END
+InternetExplorerDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/549/trunk/jobbie/src/java/org/openqa/selenium/ie/InternetExplorerDriver.java
+END
+Finder.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/549/trunk/jobbie/src/java/org/openqa/selenium/ie/Finder.java
+END

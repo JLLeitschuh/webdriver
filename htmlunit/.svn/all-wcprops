@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/549/trunk/htmlunit
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/546/trunk/htmlunit/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/htmlunit/.project
+END
+htmlunit.iml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/546/trunk/htmlunit/htmlunit.iml
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/546/trunk/htmlunit/pom.xml
+END

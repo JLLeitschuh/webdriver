@@ -1,0 +1,88 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/jobbie
+http://webdriver.googlecode.com/svn
+
+
+
+2008-10-06T11:56:59.468791Z
+555
+simon.m.stewart
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+test
+dir
+
+.classpath
+file
+
+
+
+
+2008-10-09T10:18:03.000000Z
+1b6c78f80863e7155dba795cc97bea8a
+2008-06-06T15:03:38.296614Z
+408
+simon.m.stewart
+
+.project
+file
+
+
+
+
+2008-10-09T10:18:03.000000Z
+e4218dc5f42fe350039dc5929119eaeb
+2007-01-03T21:49:10.692369Z
+2
+simon.m.stewart
+
+lib
+dir
+
+src
+dir
+
+jobbie.iml
+file
+
+
+
+
+2008-10-09T10:18:03.000000Z
+ea521360efc3cc1c363e596395916757
+2008-07-14T14:28:41.946696Z
+461
+simon.m.stewart
+
+pom.xml
+file
+
+
+
+
+2008-10-09T10:18:03.000000Z
+66fab6991b2d20c4b2693be7d6e48381
+2008-10-06T11:56:59.468791Z
+555
+simon.m.stewart
+
+.settings
+dir
+

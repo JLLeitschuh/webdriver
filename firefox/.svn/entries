@@ -1,0 +1,91 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/firefox
+http://webdriver.googlecode.com/svn
+
+
+
+2008-10-09T13:03:15.414850Z
+557
+simon.m.stewart
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+test
+dir
+
+.classpath
+file
+
+
+
+
+2008-10-09T10:16:10.000000Z
+08871a409f46a67b66b8cbdf741ddddc
+2008-07-22T08:25:30.478161Z
+472
+michael.tamm2
+
+firefox.iml
+file
+
+
+
+
+2008-10-09T10:16:10.000000Z
+db73cb5eade1f4b305eae647d68669d3
+2008-07-22T08:25:30.478161Z
+472
+michael.tamm2
+
+.project
+file
+
+
+
+
+2008-10-09T10:16:10.000000Z
+ebd667c072c92667df24105d97d93bf5
+2007-03-05T17:29:38.390267Z
+25
+simon.m.stewart
+
+lib
+dir
+
+src
+dir
+
+pom.xml
+file
+
+
+
+
+2008-10-09T10:16:10.000000Z
+d5c68b4e452d6454d0402871b08d7c12
+2008-10-06T11:56:59.468791Z
+555
+simon.m.stewart
+
+lib-src
+dir
+
+.settings
+dir
+

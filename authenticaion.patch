@@ -1,0 +1,358 @@
+Index: common/src/java/org/openqa/selenium/security/BasicCredentials.java
+===================================================================
+--- common/src/java/org/openqa/selenium/security/BasicCredentials.java	(revision 0)
++++ common/src/java/org/openqa/selenium/security/BasicCredentials.java	(revision 0)
+@@ -0,0 +1,19 @@
++package org.openqa.selenium.security;
++
++public class BasicCredentials implements SecurityCredentials {
++  private String userName;
++  private String password;
++
++  public BasicCredentials(String userName, String password) {
++    this.userName = userName;
++    this.password = password;
++  }
++
++  public String getName() {
++    return userName;
++  }
++
++  public String getPassword() {
++    return password;
++  }
++}
+Index: common/src/java/org/openqa/selenium/security/SecurityCredentials.java
+===================================================================
+--- common/src/java/org/openqa/selenium/security/SecurityCredentials.java	(revision 0)
++++ common/src/java/org/openqa/selenium/security/SecurityCredentials.java	(revision 0)
+@@ -0,0 +1,7 @@
++package org.openqa.selenium.security;
++
++/**
++ * Marker interface for security credentials
++ */
++public interface SecurityCredentials {
++}
+Index: common/src/java/org/openqa/selenium/WebDriver.java
+===================================================================
+--- common/src/java/org/openqa/selenium/WebDriver.java	(revision 556)
++++ common/src/java/org/openqa/selenium/WebDriver.java	(working copy)
+@@ -17,6 +17,9 @@
+ 
+ package org.openqa.selenium;
+ 
++import org.openqa.selenium.security.BasicCredentials;
++import org.openqa.selenium.security.SecurityCredentials;
++
+ import java.util.List;
+ import java.util.Set;
+ 
+@@ -220,6 +223,8 @@
+          * @param speed
+          */
+         void setSpeed(Speed speed);
++
++        void authenticateUsing(SecurityCredentials thisIdentity);
+     }
+     
+     /**
+Index: common/src/web/securedPage.html
+===================================================================
+--- common/src/web/securedPage.html	(revision 0)
++++ common/src/web/securedPage.html	(revision 0)
+@@ -0,0 +1,10 @@
++<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
++        "http://www.w3.org/TR/html4/loose.dtd">
++<html>
++<head>
++  <title>Secured Page</title>
++</head>
++<body>
++<p>This page should be secured.</p>
++</body>
++</html>
+\ No newline at end of file
+Index: common/test/java/org/openqa/selenium/PageLoadingTest.java
+===================================================================
+--- common/test/java/org/openqa/selenium/PageLoadingTest.java	(revision 556)
++++ common/test/java/org/openqa/selenium/PageLoadingTest.java	(working copy)
+@@ -3,6 +3,7 @@
+ import static org.hamcrest.MatcherAssert.assertThat;
+ import static org.hamcrest.Matchers.equalTo;
+ import org.openqa.selenium.environment.GlobalTestEnvironment;
++import org.openqa.selenium.security.BasicCredentials;
+ 
+ public class PageLoadingTest extends AbstractDriverTestCase {
+     public void testShouldWaitForDocumentToBeLoaded() {
+@@ -92,4 +93,13 @@
+         // This should work
+         assertThat(driver.getTitle(), equalTo("Hello WebDriver"));
+     }
++
++    public void testShouldBeAbleToAccessPageUsingBasicAuthentication() {
++      String url = GlobalTestEnvironment.get().getAppServer().whereIs("securedPage.html");
++
++      driver.manage().authenticateUsing(new BasicCredentials("user", "password"));
++      driver.get(url);
++
++      assertThat(driver.getTitle(), equalTo("Secured Page"));
++    }
+ }
+Index: common/test/java/org/openqa/selenium/environment/webserver/Jetty6AppServer.java
+===================================================================
+--- common/test/java/org/openqa/selenium/environment/webserver/Jetty6AppServer.java	(revision 556)
++++ common/test/java/org/openqa/selenium/environment/webserver/Jetty6AppServer.java	(working copy)
+@@ -18,19 +18,24 @@
+ package org.openqa.selenium.environment.webserver;
+ 
+ import junit.framework.Assert;
+-
+ import org.mortbay.jetty.Connector;
++import org.mortbay.jetty.Handler;
+ import org.mortbay.jetty.Server;
++import org.mortbay.jetty.handler.DefaultHandler;
++import org.mortbay.jetty.handler.HandlerCollection;
++import org.mortbay.jetty.nio.SelectChannelConnector;
++import org.mortbay.jetty.security.Constraint;
++import org.mortbay.jetty.security.ConstraintMapping;
++import org.mortbay.jetty.security.HashUserRealm;
++import org.mortbay.jetty.security.SecurityHandler;
+ import org.mortbay.jetty.security.SslSocketConnector;
+-import org.mortbay.jetty.nio.SelectChannelConnector;
+ import org.mortbay.jetty.webapp.WebAppContext;
+ 
++import javax.servlet.Servlet;
+ import java.io.File;
+ import java.net.InetAddress;
+ import java.net.UnknownHostException;
+ 
+-import javax.servlet.Servlet;
+-
+ public class Jetty6AppServer implements AppServer {
+     private int port;
+     private int securePort;
+@@ -48,9 +53,38 @@
+ 
+     listenOn(3000);
+     listenSecurelyOn(3443);
++
++    secureResources();
+   }
+ 
++  private void secureResources() {
++    Constraint constraint = new Constraint();
++    constraint.setName(Constraint.__BASIC_AUTH);
++    constraint.setRoles(new String[]{"user"});
++    constraint.setAuthenticate(true);
+ 
++    ConstraintMapping cm = new ConstraintMapping();
++    cm.setConstraint(constraint);
++    cm.setPathSpec("/securedPage.html");
++
++    SecurityHandler sh = new SecurityHandler();
++    HashUserRealm userRealm = new HashUserRealm("MyRealm");
++    userRealm.addUserToRole("user", "user");
++    userRealm.put("user", "password");
++    sh.setUserRealm(userRealm);
++    sh.setConstraintMappings(new ConstraintMapping[]{cm});
++
++    context.setContextPath("");
++    context.addHandler(sh);
++
++    HandlerCollection handlers= new HandlerCollection();
++    handlers.setHandlers(new Handler[]{context, new DefaultHandler()});
++
++    server.setHandler(handlers);
++
++  }
++
++
+   protected File findRootOfWebApp() {
+     String[] possiblePaths = {
+         "common/src/web",
+Index: common/test/java/org/openqa/selenium/SingleTestSuite.java
+===================================================================
+--- common/test/java/org/openqa/selenium/SingleTestSuite.java	(revision 556)
++++ common/test/java/org/openqa/selenium/SingleTestSuite.java	(working copy)
+@@ -14,7 +14,7 @@
+   private final static String SAFARI = "org.openqa.selenium.safari.SafariDriver";
+ 
+   public static Test suite() throws Exception {
+-    String driver = FIREFOX;
++    String driver = HTML_UNIT;
+ 
+     System.setProperty("webdriver.firefox.useExisting", "true");
+ 
+@@ -25,8 +25,8 @@
+         .usingDriver(driver)
+         .keepDriverInstance()
+         .includeJavascriptTests()
+-        .onlyRun("JavascriptEnabledDriverTest")
+-         .method("testDocumentShouldReflectLatestTitle")
++        .onlyRun("PageLoadingTest")
++//         .method("testDocumentShouldReflectLatestTitle")
+ //        .exclude("ie")
+         .leaveRunning()
+         ;  // Yeah, this look strange :)
+Index: firefox/src/java/org/openqa/selenium/firefox/FirefoxDriver.java
+===================================================================
+--- firefox/src/java/org/openqa/selenium/firefox/FirefoxDriver.java	(revision 556)
++++ firefox/src/java/org/openqa/selenium/firefox/FirefoxDriver.java	(working copy)
+@@ -10,6 +10,7 @@
+ import org.openqa.selenium.WebDriver;
+ import org.openqa.selenium.WebElement;
+ import org.openqa.selenium.JavascriptExecutor;
++import org.openqa.selenium.security.SecurityCredentials;
+ import org.openqa.selenium.firefox.internal.ExtensionConnectionFactory;
+ import org.openqa.selenium.firefox.internal.ProfilesIni;
+ import org.openqa.selenium.internal.FindsById;
+@@ -511,6 +512,10 @@
+             }
+             sendMessage(RuntimeException.class, "setMouseSpeed", "" + pixelSpeed);
+         }
++
++      public void authenticateUsing(SecurityCredentials thisIdentity) {
++          throw new UnsupportedOperationException("authenticateUsing");
++      }
+     }
+ 
+     private class FirefoxTargetLocator implements TargetLocator {
+Index: htmlunit/src/java/org/openqa/selenium/htmlunit/HtmlUnitDriver.java
+===================================================================
+--- htmlunit/src/java/org/openqa/selenium/htmlunit/HtmlUnitDriver.java	(revision 556)
++++ htmlunit/src/java/org/openqa/selenium/htmlunit/HtmlUnitDriver.java	(working copy)
+@@ -18,6 +18,7 @@
+ package org.openqa.selenium.htmlunit;
+ 
+ import com.gargoylesoftware.htmlunit.CookieManager;
++import com.gargoylesoftware.htmlunit.DefaultCredentialsProvider;
+ import com.gargoylesoftware.htmlunit.ElementNotFoundException;
+ import com.gargoylesoftware.htmlunit.Page;
+ import com.gargoylesoftware.htmlunit.ProxyConfig;
+@@ -50,6 +51,8 @@
+ import org.openqa.selenium.internal.FindsByName;
+ import org.openqa.selenium.internal.FindsByXPath;
+ import org.openqa.selenium.internal.ReturnedCookie;
++import org.openqa.selenium.security.BasicCredentials;
++import org.openqa.selenium.security.SecurityCredentials;
+ 
+ import java.net.ConnectException;
+ import java.net.URL;
+@@ -640,7 +643,15 @@
+             throw new UnsupportedOperationException();
+         }
+ 
+-        private String getDomainForCookie(Cookie cookie) {
++        public void authenticateUsing(SecurityCredentials thisIdentity) {
++            if (thisIdentity instanceof BasicCredentials) {
++              BasicCredentials user = (BasicCredentials) thisIdentity;
++              DefaultCredentialsProvider credentialsProvider = (DefaultCredentialsProvider) webClient.getCredentialsProvider();
++              credentialsProvider.addCredentials(user.getName(), user.getPassword());
++            }
++        }
++
++      private String getDomainForCookie(Cookie cookie) {
+             URL current = lastPage().getWebResponse().getUrl();
+             String hostName = cookie.getDomain();
+             if (hostName == null || "".equals(hostName)) {
+Index: safari/src/java/org/openqa/selenium/safari/SafariDriver.java
+===================================================================
+--- safari/src/java/org/openqa/selenium/safari/SafariDriver.java	(revision 556)
++++ safari/src/java/org/openqa/selenium/safari/SafariDriver.java	(working copy)
+@@ -7,6 +7,7 @@
+ import org.openqa.selenium.NoSuchElementException;
+ import org.openqa.selenium.Cookie;
+ import org.openqa.selenium.Speed;
++import org.openqa.selenium.security.SecurityCredentials;
+ import org.openqa.selenium.internal.FindsByLinkText;
+ import org.openqa.selenium.internal.FindsById;
+ import org.openqa.selenium.internal.FindsByXPath;
+@@ -239,7 +240,11 @@
+             throw new UnsupportedOperationException("setMouseSpeed");
+         }
+ 
+-        private String getCurrentHost() {
++        public void authenticateUsing(SecurityCredentials thisIdentity) {
++            throw new UnsupportedOperationException("authenticateUsing");
++        }
++
++      private String getCurrentHost() {
+ 			try {
+ 				URL url = new URL(getCurrentUrl());
+ 				return url.getHost();
+Index: jobbie/src/java/org/openqa/selenium/ie/InternetExplorerDriver.java
+===================================================================
+--- jobbie/src/java/org/openqa/selenium/ie/InternetExplorerDriver.java	(revision 556)
++++ jobbie/src/java/org/openqa/selenium/ie/InternetExplorerDriver.java	(working copy)
+@@ -17,6 +17,17 @@
+ 
+ package org.openqa.selenium.ie;
+ 
++import org.openqa.selenium.Alert;
++import org.openqa.selenium.By;
++import org.openqa.selenium.Cookie;
++import org.openqa.selenium.JavascriptExecutor;
++import org.openqa.selenium.SearchContext;
++import org.openqa.selenium.Speed;
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.internal.ReturnedCookie;
++import org.openqa.selenium.security.SecurityCredentials;
++
+ import java.io.File;
+ import java.io.FileOutputStream;
+ import java.io.IOException;
+@@ -28,16 +39,6 @@
+ import java.util.List;
+ import java.util.Set;
+ 
+-import org.openqa.selenium.Alert;
+-import org.openqa.selenium.By;
+-import org.openqa.selenium.Cookie;
+-import org.openqa.selenium.JavascriptExecutor;
+-import org.openqa.selenium.SearchContext;
+-import org.openqa.selenium.Speed;
+-import org.openqa.selenium.WebDriver;
+-import org.openqa.selenium.WebElement;
+-import org.openqa.selenium.internal.ReturnedCookie;
+-
+ public class InternetExplorerDriver implements WebDriver, SearchContext, JavascriptExecutor {
+     private long iePointer; // Used by the native code to keep track of the IE instance
+     private static boolean comStarted;
+@@ -274,7 +275,11 @@
+ 	        return toReturn;
+ 		}
+ 
+-		private String getCurrentHost() {
++      public void authenticateUsing(SecurityCredentials thisIdentity) {
++        throw new UnsupportedOperationException("authenticateUsing");
++      }
++
++      private String getCurrentHost() {
+ 			try {
+ 				URL url = new URL(getCurrentUrl());
+ 				return url.getHost();
+Index: remote/client/src/java/org/openqa/selenium/remote/RemoteWebDriver.java
+===================================================================
+--- remote/client/src/java/org/openqa/selenium/remote/RemoteWebDriver.java	(revision 556)
++++ remote/client/src/java/org/openqa/selenium/remote/RemoteWebDriver.java	(working copy)
+@@ -7,6 +7,7 @@
+ import org.openqa.selenium.WebDriver;
+ import org.openqa.selenium.WebElement;
+ import org.openqa.selenium.JavascriptExecutor;
++import org.openqa.selenium.security.SecurityCredentials;
+ import org.openqa.selenium.internal.FindsByClassName;
+ import org.openqa.selenium.internal.FindsById;
+ import org.openqa.selenium.internal.FindsByLinkText;
+@@ -410,6 +411,10 @@
+     public void setSpeed(Speed speed) {
+       execute("setSpeed", speed);
+     }
++
++    public void authenticateUsing(SecurityCredentials thisIdentity) {
++      throw new UnsupportedOperationException("authenticateUsing");
++    }
+   }
+ 
+   private class RemoteNavigation implements Navigation {

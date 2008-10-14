@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/556/trunk/common/test/java/org/openqa/selenium
+END
+RenderedWebElementTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/509/trunk/common/test/java/org/openqa/selenium/RenderedWebElementTest.java
+END
+Messages.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/Messages.java
+END
+CookieTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/CookieTest.java
+END
+NoDriverAfterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/NoDriverAfterTest.java
+END
+PageLoadingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/556/trunk/common/test/java/org/openqa/selenium/PageLoadingTest.java
+END
+AbstractDriverTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/556/trunk/common/test/java/org/openqa/selenium/AbstractDriverTestCase.java
+END
+CookieImplementationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/556/trunk/common/test/java/org/openqa/selenium/CookieImplementationTest.java
+END
+I18nTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/I18nTest.java
+END
+Ignore.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/Ignore.java
+END
+ChildrenFindingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/509/trunk/common/test/java/org/openqa/selenium/ChildrenFindingTest.java
+END
+WindowSwitchingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/511/trunk/common/test/java/org/openqa/selenium/WindowSwitchingTest.java
+END
+TextHandlingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/556/trunk/common/test/java/org/openqa/selenium/TextHandlingTest.java
+END
+AlertsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/556/trunk/common/test/java/org/openqa/selenium/AlertsTest.java
+END
+MiscTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/MiscTest.java
+END
+PartialLinkTextMatchTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/551/trunk/common/test/java/org/openqa/selenium/PartialLinkTextMatchTest.java
+END
+JavascriptEnabledDriverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/553/trunk/common/test/java/org/openqa/selenium/JavascriptEnabledDriverTest.java
+END
+SelectElementHandlingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/509/trunk/common/test/java/org/openqa/selenium/SelectElementHandlingTest.java
+END
+TestSuiteBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/515/trunk/common/test/java/org/openqa/selenium/TestSuiteBuilder.java
+END
+NeedsFreshDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/NeedsFreshDriver.java
+END
+CorrectEventFiringTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/444/trunk/common/test/java/org/openqa/selenium/CorrectEventFiringTest.java
+END
+TextPagesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/556/trunk/common/test/java/org/openqa/selenium/TextPagesTest.java
+END
+FormHandlingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/463/trunk/common/test/java/org/openqa/selenium/FormHandlingTest.java
+END
+EnvironmentStarter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/475/trunk/common/test/java/org/openqa/selenium/EnvironmentStarter.java
+END
+FrameSwitchingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/509/trunk/common/test/java/org/openqa/selenium/FrameSwitchingTest.java
+END
+TypingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/552/trunk/common/test/java/org/openqa/selenium/TypingTest.java
+END
+ByTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/ByTest.java
+END
+NeedsDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/NeedsDriver.java
+END
+ElementAttributeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/535/trunk/common/test/java/org/openqa/selenium/ElementAttributeTest.java
+END
+JavascriptEnabled.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/JavascriptEnabled.java
+END
+ExecutingJavascriptTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/499/trunk/common/test/java/org/openqa/selenium/ExecutingJavascriptTest.java
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/messages.properties
+END
+DragAndDropTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/462/trunk/common/test/java/org/openqa/selenium/DragAndDropTest.java
+END
+ElementFindingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/499/trunk/common/test/java/org/openqa/selenium/ElementFindingTest.java
+END
+SingleTestSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/554/trunk/common/test/java/org/openqa/selenium/SingleTestSuite.java
+END
+XPathElementFindingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/XPathElementFindingTest.java
+END
+DriverTestDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/421/trunk/common/test/java/org/openqa/selenium/DriverTestDecorator.java
+END

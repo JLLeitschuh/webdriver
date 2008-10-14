@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/483/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler
+END
+ClickElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/ClickElement.java
+END
+ClearElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/ClearElement.java
+END
+CookieHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/438/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/CookieHandler.java
+END
+ChangeUrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/ChangeUrl.java
+END
+GetMouseSpeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetMouseSpeed.java
+END
+SwitchToFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/SwitchToFrame.java
+END
+GetElementLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetElementLocation.java
+END
+GetElementSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetElementSize.java
+END
+SendKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/SendKeys.java
+END
+SetMouseSpeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/SetMouseSpeed.java
+END
+GoBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GoBack.java
+END
+GetElementValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetElementValue.java
+END
+DragElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/DragElement.java
+END
+ExecuteScript.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/483/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/ExecuteScript.java
+END
+GetElementDisplayed.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetElementDisplayed.java
+END
+GoForward.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GoForward.java
+END
+NewSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/448/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/NewSession.java
+END
+GetVisible.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetVisible.java
+END
+CloseWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/CloseWindow.java
+END
+GetSessionCapabilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetSessionCapabilities.java
+END
+DeleteNamedCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/DeleteNamedCookie.java
+END
+GetElementSelected.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetElementSelected.java
+END
+FindElementChildren.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/FindElementChildren.java
+END
+GetElementEnabled.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetElementEnabled.java
+END
+GetCurrentUrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetCurrentUrl.java
+END
+DeleteSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/DeleteSession.java
+END
+SetVisible.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/SetVisible.java
+END
+BySelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/442/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/BySelector.java
+END
+FindElements.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/FindElements.java
+END
+GetElementAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetElementAttribute.java
+END
+SubmitElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/SubmitElement.java
+END
+SetElementSelected.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/SetElementSelected.java
+END
+GetTitle.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetTitle.java
+END
+FindChildElements.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/FindChildElements.java
+END
+AddCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/AddCookie.java
+END
+GetAllCookies.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetAllCookies.java
+END
+FindActiveElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/454/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/FindActiveElement.java
+END
+WebDriverHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/449/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/WebDriverHandler.java
+END
+DescribeElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/DescribeElement.java
+END
+FindElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/450/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/FindElement.java
+END
+ToggleElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/ToggleElement.java
+END
+SwitchToWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/SwitchToWindow.java
+END
+DeleteCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/DeleteCookie.java
+END
+GetPageSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetPageSource.java
+END
+GetCssProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/483/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetCssProperty.java
+END
+GetElementText.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/444/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/GetElementText.java
+END
+FindChildElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/450/trunk/remote/server/src/java/org/openqa/selenium/remote/server/handler/FindChildElement.java
+END

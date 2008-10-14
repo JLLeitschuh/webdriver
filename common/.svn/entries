@@ -1,0 +1,91 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/common
+http://webdriver.googlecode.com/svn
+
+
+
+2008-10-06T21:18:57.833136Z
+556
+simon.m.stewart
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+test
+dir
+
+.classpath
+file
+
+
+
+
+2008-10-09T10:18:02.000000Z
+c45ed6659308686d388d5a050d61330d
+2008-08-27T16:00:02.351006Z
+515
+michael.tamm2
+
+.project
+file
+
+
+
+
+2008-10-09T10:18:02.000000Z
+bc07ca8a9b3de69c1291be9f9eeff7a9
+2007-01-03T21:49:10.692369Z
+2
+simon.m.stewart
+
+lib
+dir
+
+src
+dir
+
+common.iml
+file
+
+
+
+
+2008-10-09T10:18:02.000000Z
+0e7f318e26162a552fe105605dce06a1
+2008-07-14T14:28:41.946696Z
+461
+simon.m.stewart
+
+pom.xml
+file
+
+
+
+
+2008-10-09T10:18:02.000000Z
+14c8d7974ebfb4d95da96e50adee4c39
+2008-10-06T11:56:59.468791Z
+555
+simon.m.stewart
+
+lib-src
+dir
+
+.settings
+dir
+

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/460/trunk/selenium/src/java/org/openqa/selenium/internal
+END
+IdentifierLookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/IdentifierLookupStrategy.java
+END
+XPathLookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/XPathLookupStrategy.java
+END
+ExactTextMatchingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/ExactTextMatchingStrategy.java
+END
+IdOptionSelectStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/IdOptionSelectStrategy.java
+END
+IdLookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/IdLookupStrategy.java
+END
+LinkLookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/LinkLookupStrategy.java
+END
+RegExTextMatchingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/RegExTextMatchingStrategy.java
+END
+TextMatchingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/TextMatchingStrategy.java
+END
+ClassLookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/ClassLookupStrategy.java
+END
+IndexOptionSelectStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/IndexOptionSelectStrategy.java
+END
+IndexFilterFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/IndexFilterFunction.java
+END
+GlobTextMatchingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/GlobTextMatchingStrategy.java
+END
+BaseOptionSelectStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/BaseOptionSelectStrategy.java
+END
+BaseFilterFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/BaseFilterFunction.java
+END
+ImplicitLookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/ImplicitLookupStrategy.java
+END
+ValueOptionSelectStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/ValueOptionSelectStrategy.java
+END
+ValueFilterFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/ValueFilterFunction.java
+END
+LabelOptionSelectStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/LabelOptionSelectStrategy.java
+END
+FilterFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/FilterFunction.java
+END
+OptionSelectStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/OptionSelectStrategy.java
+END
+LookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/LookupStrategy.java
+END
+NameFilterFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/NameFilterFunction.java
+END
+AltLookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/422/trunk/selenium/src/java/org/openqa/selenium/internal/AltLookupStrategy.java
+END
+NameLookupStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/460/trunk/selenium/src/java/org/openqa/selenium/internal/NameLookupStrategy.java
+END

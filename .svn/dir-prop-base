@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 131
+WebDriver.iws
+_ReSharper.WebDriver
+WebDriver.resharper
+WebDriver.resharper.user
+PrecompiledWeb
+WebDriver.suo
+release
+WebDriver.ncb
+
+END

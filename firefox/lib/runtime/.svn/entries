@@ -1,0 +1,41 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/firefox/lib/runtime
+http://webdriver.googlecode.com/svn
+
+
+
+2008-07-22T08:25:30.478161Z
+472
+michael.tamm2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+json-20080701.jar
+file
+
+
+
+
+2008-10-09T10:16:08.000000Z
+4f4b10580231c86bc91a5f81e4200a70
+2008-07-22T08:25:30.478161Z
+472
+michael.tamm2
+has-props
+

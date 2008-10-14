@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/558/trunk
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/538/trunk/Rakefile
+END
+WebDriver.ipr
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/552/trunk/WebDriver.ipr
+END
+WebDriver.sln
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/444/trunk/WebDriver.sln
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/555/trunk/pom.xml
+END
+CREDITS.txt
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/429/trunk/CREDITS.txt
+END

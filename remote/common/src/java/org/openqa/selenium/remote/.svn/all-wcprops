@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/558/trunk/remote/common/src/java/org/openqa/selenium/remote
+END
+SessionId.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/438/trunk/remote/common/src/java/org/openqa/selenium/remote/SessionId.java
+END
+PropertyMunger.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/438/trunk/remote/common/src/java/org/openqa/selenium/remote/PropertyMunger.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/438/trunk/remote/common/src/java/org/openqa/selenium/remote/Context.java
+END
+Capabilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/438/trunk/remote/common/src/java/org/openqa/selenium/remote/Capabilities.java
+END
+DesiredCapabilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/523/trunk/remote/common/src/java/org/openqa/selenium/remote/DesiredCapabilities.java
+END
+JsonToBeanConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/558/trunk/remote/common/src/java/org/openqa/selenium/remote/JsonToBeanConverter.java
+END
+BeanToJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/438/trunk/remote/common/src/java/org/openqa/selenium/remote/BeanToJsonConverter.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/438/trunk/remote/common/src/java/org/openqa/selenium/remote/Response.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/438/trunk/remote/common/src/java/org/openqa/selenium/remote/Command.java
+END

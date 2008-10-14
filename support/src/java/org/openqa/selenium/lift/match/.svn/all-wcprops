@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/match
+END
+NumericalMatchers.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/match/NumericalMatchers.java
+END
+AttributeMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/match/AttributeMatcher.java
+END
+TextMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/match/TextMatcher.java
+END

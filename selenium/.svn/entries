@@ -1,0 +1,89 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/selenium
+http://webdriver.googlecode.com/svn
+
+
+
+2008-08-04T17:53:17.719121Z
+489
+simon.m.stewart
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+test
+dir
+
+.classpath
+file
+
+
+
+
+2008-10-09T10:16:08.000000Z
+f0b16660413fb0ee987d947bfd8545b7
+2008-08-04T17:53:17.719121Z
+489
+simon.m.stewart
+
+selenium.iml
+file
+
+
+
+
+2008-10-09T10:16:08.000000Z
+e193fcc2fe635b3bc14543cc6580a2d2
+2008-07-14T14:27:19.387907Z
+460
+simon.m.stewart
+
+.project
+file
+
+
+
+
+2008-10-09T10:16:08.000000Z
+513bb4436f8e1d864c481c597f150af5
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+updateSeleniumRcTests.sh
+file
+
+
+
+
+2008-10-09T10:16:08.000000Z
+a08540fdc803992d145d62bdd850bf1b
+2008-02-25T00:49:41.344147Z
+277
+simon.m.stewart
+has-props
+
+lib
+dir
+
+src
+dir
+
+.settings
+dir
+

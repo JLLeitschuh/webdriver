@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/438/trunk/remote/server/test/java/org/openqa/selenium/remote/server
+END
+ResultConfigTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/438/trunk/remote/server/test/java/org/openqa/selenium/remote/server/ResultConfigTest.java
+END
+UrlMapperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/438/trunk/remote/server/test/java/org/openqa/selenium/remote/server/UrlMapperTest.java
+END
+StubHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/438/trunk/remote/server/test/java/org/openqa/selenium/remote/server/StubHandler.java
+END

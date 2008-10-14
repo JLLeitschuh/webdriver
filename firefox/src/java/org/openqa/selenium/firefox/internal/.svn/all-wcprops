@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/557/trunk/firefox/src/java/org/openqa/selenium/firefox/internal
+END
+DisconnectedExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/421/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/DisconnectedExtension.java
+END
+AbstractExtensionConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/507/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/AbstractExtensionConnection.java
+END
+ProfilesIni.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/540/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/ProfilesIni.java
+END
+ExtensionConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/507/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/ExtensionConnectionFactory.java
+END
+RunningInstanceConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/421/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/RunningInstanceConnection.java
+END
+NewProfileExtensionConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/421/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/NewProfileExtensionConnection.java
+END
+Cleanly.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/421/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/Cleanly.java
+END
+FirefoxBinary.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/557/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/FirefoxBinary.java
+END
+FileHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/421/trunk/firefox/src/java/org/openqa/selenium/firefox/internal/FileHandler.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/65/trunk/jobbie/test/csharp
+END
+IeWrapperTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/60/trunk/jobbie/test/csharp/IeWrapperTest.cs
+END
+XPathTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/60/trunk/jobbie/test/csharp/XPathTest.cs
+END
+IeWrapperJavascriptTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/60/trunk/jobbie/test/csharp/IeWrapperJavascriptTest.cs
+END
+Test.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/53/trunk/jobbie/test/csharp/Test.csproj.user
+END
+Test.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/65/trunk/jobbie/test/csharp/Test.csproj
+END

@@ -1,0 +1,52 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/selenium/src/java/org/openqa/selenium/server/browserlaunchers
+http://webdriver.googlecode.com/svn
+
+
+
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+BrowserLauncher.java
+file
+
+
+
+
+2008-10-09T10:16:00.000000Z
+35e23adc1c34f3d066cf926478bf8caf
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+
+WindowsUtils.java
+file
+
+
+
+
+2008-10-09T10:16:00.000000Z
+ae676c6a5ed0e2f7743e788fe8ea3278
+2007-07-24T14:52:59.427330Z
+95
+simon.m.stewart
+

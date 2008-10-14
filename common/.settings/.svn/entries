@@ -1,0 +1,52 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/common/.settings
+http://webdriver.googlecode.com/svn
+
+
+
+2007-10-09T08:48:18.338762Z
+117
+simon.m.stewart
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+org.eclipse.jdt.core.prefs
+file
+
+
+
+
+2008-10-09T10:18:02.000000Z
+3f453ac130f49b581b3c1afe46d22802
+2007-10-09T08:48:18.338762Z
+117
+simon.m.stewart
+
+org.eclipse.jdt.ui.prefs
+file
+
+
+
+
+2008-10-09T10:18:02.000000Z
+0366a02cbd7055764039855073539d76
+2007-10-09T08:48:18.338762Z
+117
+simon.m.stewart
+

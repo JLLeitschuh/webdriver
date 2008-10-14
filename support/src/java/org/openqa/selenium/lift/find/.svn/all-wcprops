@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find
+END
+TableCellFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/TableCellFinder.java
+END
+TableFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/TableFinder.java
+END
+BaseFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/BaseFinder.java
+END
+LinkFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/LinkFinder.java
+END
+PageTitleFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/PageTitleFinder.java
+END
+Finder.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/Finder.java
+END
+InputFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/InputFinder.java
+END
+HtmlTagFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/HtmlTagFinder.java
+END
+ImageFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/421/trunk/support/src/java/org/openqa/selenium/lift/find/ImageFinder.java
+END

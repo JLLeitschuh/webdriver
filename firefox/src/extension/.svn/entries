@@ -1,0 +1,58 @@
+8
+
+dir
+558
+http://webdriver.googlecode.com/svn/trunk/firefox/src/extension
+http://webdriver.googlecode.com/svn
+
+
+
+2008-10-05T21:11:34.010211Z
+554
+simon.m.stewart
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+97e95b47-e525-0410-8588-4d7b0e4eb8ec
+
+install.rdf
+file
+
+
+
+
+2008-10-09T10:16:09.000000Z
+69627a02a27faa33a9ce6ae92e167373
+2008-09-16T13:13:24.025201Z
+524
+simon.m.stewart
+
+chrome.manifest
+file
+
+
+
+
+2008-10-09T10:16:09.000000Z
+2d21bb23325dd660c9fa810b9565f186
+2008-07-10T16:22:13.373732Z
+451
+simon.m.stewart
+
+components
+dir
+
+content
+dir
+

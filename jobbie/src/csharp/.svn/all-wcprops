@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/60/trunk/jobbie/src/csharp
+END
+IeWrapper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/60/trunk/jobbie/src/csharp/IeWrapper.cs
+END
+WebDriver.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19/trunk/jobbie/src/csharp/WebDriver.csproj.user
+END
+WebDriver.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/60/trunk/jobbie/src/csharp/WebDriver.csproj
+END
+InternetExplorerDriver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/60/trunk/jobbie/src/csharp/InternetExplorerDriver.cs
+END
+NoSuchElementException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/jobbie/src/csharp/NoSuchElementException.cs
+END
+UnsupportedOperationException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/jobbie/src/csharp/UnsupportedOperationException.cs
+END
+WebDriver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/60/trunk/jobbie/src/csharp/WebDriver.cs
+END
+WrappedWebElement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/60/trunk/jobbie/src/csharp/WrappedWebElement.cs
+END

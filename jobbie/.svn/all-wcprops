@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/555/trunk/jobbie
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/408/trunk/jobbie/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/jobbie/.project
+END
+jobbie.iml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/461/trunk/jobbie/jobbie.iml
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/555/trunk/jobbie/pom.xml
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/549/trunk/common/src/java/org/openqa/selenium
+END
+RenderedWebElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/RenderedWebElement.java
+END
+Speed.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/Speed.java
+END
+JavascriptExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/475/trunk/common/src/java/org/openqa/selenium/JavascriptExecutor.java
+END
+WebElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/WebElement.java
+END
+Alert.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/Alert.java
+END
+NoSuchElementException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/NoSuchElementException.java
+END
+WebDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/511/trunk/common/src/java/org/openqa/selenium/WebDriver.java
+END
+UnhandledAlertException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/UnhandledAlertException.java
+END
+Cookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/541/trunk/common/src/java/org/openqa/selenium/Cookie.java
+END
+NoSuchFrameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/NoSuchFrameException.java
+END
+By.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/549/trunk/common/src/java/org/openqa/selenium/By.java
+END
+SearchContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/SearchContext.java
+END
+Keys.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/504/trunk/common/src/java/org/openqa/selenium/Keys.java
+END
+How.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/421/trunk/common/src/java/org/openqa/selenium/How.java
+END
