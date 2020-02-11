@@ -46,7 +46,7 @@
 		<repository>
 			<id>openqa-releases</id>
 			<name>OpenQA Releases</name>
-			<url>http://archiva.openqa.org/repository/releases/</url>
+			<url>https://archiva.openqa.org/repository/releases/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -57,7 +57,7 @@
 		<repository>
 			<id>openqa-snapshots</id>
 			<name>OpenQA Snapshots</name>
-			<url>http://archiva.openqa.org/repository/snapshots/</url>
+			<url>https://archiva.openqa.org/repository/snapshots/</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
